@@ -42,7 +42,7 @@ root.geometry("400x100")
 # in title bar
 root.resizable(False, False)
 
-# Result
+# Main window
 result_label = tk.Label(root, text="Select an ISO file", wraplength=350)
 result_label.pack(pady=20)
 
