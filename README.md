@@ -6,7 +6,10 @@ This tool allows you to find the SHA256 hashes of ISO files (and others) with ju
 
 **Install:**
 -------------
+***Windows:***
 It does not require installation. Simply download the .exe file and run it by double-clicking. Tested on Windows 10 and Windows 11.
+
+***Linux:***
 If you want to run the python script on Linux, make sure to have the following dependencies: _python3_, _python3-tk_. 
 The script can be started with 'python3 min256-finder' command.
 
