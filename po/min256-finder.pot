@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 16:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/min256-finder.py:58
+#, python-format
+msgid "Calculating... %d%%"
+msgstr ""
+
+#: src/min256-finder.py:67
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+#: src/min256-finder.py:71 src/min256-finder.py:105
+msgid "Select an ISO file"
+msgstr ""
+
+#: src/min256-finder.py:72
+msgid "All files"
+msgstr ""
+
+#: src/min256-finder.py:77
+#, python-format
+msgid "Calculating... 0%%"
+msgstr ""
+
+#: src/min256-finder.py:83
+msgid "No file selected."
+msgstr ""
+
+#: src/min256-finder.py:91
+#, python-format
+msgid ""
+"SHA256:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/min256-finder.py:93
+msgid "Info"
+msgstr ""
+
+#: src/min256-finder.py:93
+msgid "Done."
+msgstr ""
+
+#: src/min256-finder.py:109
+msgid "Select"
+msgstr ""

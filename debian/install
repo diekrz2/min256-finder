@@ -1,0 +1,6 @@
+src/min256-finder.py usr/share/min256-finder/
+bin/min256-finder usr/bin/
+data/min256-finder.desktop usr/share/applications/
+data/icons/min256-finder.png usr/share/icons/hicolor/256x256/apps
+locales/it/LC_MESSAGES/min256-finder.mo usr/share/locale/it/LC_MESSAGES/
+locales/pl/LC_MESSAGES/min256-finder.mo usr/share/locale/pl/LC_MESSAGES/

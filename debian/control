@@ -1,0 +1,13 @@
+Source: min256-finder
+Section: utils
+Priority: optional
+Maintainer: diekrz2 <diekrz2@bodhilinux.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+
+Package: min256-finder
+Architecture: all
+Depends: python3, python3-tk
+Description: Simple SHA256 calculator for ISO files
+ A simple GUI tool to calculate SHA256 hashes of ISO files.
+
