@@ -1,3 +1,12 @@
 #!/usr/bin/make -f
 %:
 	dh $@
+
+override_dh_auto_install:
+	# Compile gettext translations (.po → .mo) into the staged package tree.
+	for po in po/*.po; do \
+	    [ -f "$$po" ] || continue; \
+	    lang=$$(basename "$$po" .po); \
+	    install -d debian/min256-finder/usr/share/locale/$$lang/LC_MESSAGES; \
+	    msgfmt "$$po" -o debian/min256-finder/usr/share/locale/$$lang/LC_MESSAGES/min256-finder.mo; \
+	done
