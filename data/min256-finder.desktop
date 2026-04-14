@@ -1,7 +1,8 @@
 [Desktop Entry]
 Name=min256-finder
 Comment=Calculate SHA256 of ISO files
-Comment[it]=Calcola SHA256 dei file ISO 
+Comment[it]=Calcola SHA256 dei file ISO
+Comment[pl]=Oblicz SHA256 plików ISO
 Exec=min256-finder
 Icon=min256-finder
 Terminal=false
