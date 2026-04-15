@@ -3,7 +3,7 @@ min256-finder (1.1-1) unstable; urgency=medium
   * Add icon
   * Switch to Debian-controlled install layout
   * Main desktop entry: min256-finder.desktop
-  * Localization added
+  * Localization 
   * Show progress percentage during calculation
 
- -- diekrz2 <diekrz2@bodhilinux.com>  Fri, 15 Apr 2026 17:00:00 +0200
+ -- diekrz2 <diekrz2@bodhilinux.com>  Wed, 15 Apr 2026 18:00:00 +0200
