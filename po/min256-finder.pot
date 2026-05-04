@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 16:59+0200\n"
+"POT-Creation-Date: 2026-05-04 14:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,34 +17,34 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/min256-finder.py:58
+#: src/min256-finder.py:89
 #, python-format
 msgid "Calculating... %d%%"
 msgstr ""
 
-#: src/min256-finder.py:67
+#: src/min256-finder.py:98
 #, python-format
 msgid "Error: %s"
 msgstr ""
 
-#: src/min256-finder.py:71 src/min256-finder.py:105
+#: src/min256-finder.py:102 src/min256-finder.py:136
 msgid "Select an ISO file"
 msgstr ""
 
-#: src/min256-finder.py:72
+#: src/min256-finder.py:103
 msgid "All files"
 msgstr ""
 
-#: src/min256-finder.py:77
+#: src/min256-finder.py:108
 #, python-format
 msgid "Calculating... 0%%"
 msgstr ""
 
-#: src/min256-finder.py:83
+#: src/min256-finder.py:114
 msgid "No file selected."
 msgstr ""
 
-#: src/min256-finder.py:91
+#: src/min256-finder.py:122
 #, python-format
 msgid ""
 "SHA256:\n"
@@ -52,14 +52,14 @@ msgid ""
 "%s"
 msgstr ""
 
-#: src/min256-finder.py:93
+#: src/min256-finder.py:124
 msgid "Info"
 msgstr ""
 
-#: src/min256-finder.py:93
+#: src/min256-finder.py:124
 msgid "Done."
 msgstr ""
 
-#: src/min256-finder.py:109
+#: src/min256-finder.py:140
 msgid "Select"
 msgstr ""
