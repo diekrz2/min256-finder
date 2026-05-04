@@ -15,7 +15,7 @@ def get_resource_path(relative_path=""):
         base_path = sys._MEIPASS
     else:
         base_path = os.path.dirname(os.path.abspath(__file__))
-    
+
     return os.path.join(base_path, relative_path)
 
 # localization with gettext:
@@ -48,7 +48,7 @@ def get_lang_code():
                 return code
     except:
         pass
-    
+
     # fallback to English
     return 'en'
 
@@ -56,7 +56,7 @@ lang_code = get_lang_code()
 
 try:
     translation = gettext.translation(
-        APP_NAME,                   
+        APP_NAME,
         localedir=get_locale_path(),
         languages=[lang_code, lang_code.split("_")[0]],
         fallback=True
@@ -64,7 +64,7 @@ try:
     _ = translation.gettext
 
 except Exception as e:
-    _ = lambda x: x   
+    _ = lambda x: x
 
 def find_sha(file_path):
     sha256 = hashlib.sha256()
@@ -78,20 +78,20 @@ def find_sha(file_path):
                 data = f.read(4096)
                 if not data:
                     break
-                
+
                 sha256.update(data)
                 read_size += len(data)
 
                 # Simple percentage calculation
                 percent = int((read_size / total_size) * 100)
-                
+
                 if percent != last_percent:
                    result_label.config(text=_("Calculating... %d%%") % percent)
-   
+
                 # GUI update
                 root.update_idletasks()
                 last_percent = percent
-                
+
         return sha256.hexdigest()
 
     except Exception as e:
@@ -112,7 +112,7 @@ def select_file():
         root.after(100, lambda: start_calculation(file_path))
     else:
         result_label.config(text=_("No file selected."))
-        
+
 def start_calculation(file_path):
     hash_value = find_sha(file_path)
 
@@ -120,18 +120,13 @@ def start_calculation(file_path):
 
     # Show result
     result_label.config(text=_("SHA256:\n\n%s") % hash_value)
-    # Final popup 
+    # Final popup
     messagebox.showinfo(_("Info"), _("Done."))
 
-# Main window 
-root = tk.Tk()      
+# Main window
+root = tk.Tk(className="min256-finder")
 root.title("min256-finder")
 root.geometry("400x100")
-
-# Icon workaround
-if sys.platform != "win32":
-    empty_icon = tk.PhotoImage(width=1, height=1)
-    root.iconphoto(True, empty_icon)
 
 # If False (twice) there will be no 'resize' option
 # in title bar
