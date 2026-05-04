@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-04 14:26+0200\n"
+"POT-Creation-Date: 2026-05-04 21:07+0200\n"
 "PO-Revision-Date: 2026-04-10 17:45+0200\n"
 "Last-Translator: diekrz2\n"
 "Language-Team: Bodhi Team\n"
@@ -17,34 +17,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/min256-finder.py:89
+#: src/min256-finder.py:98
 #, python-format
 msgid "Calculating... %d%%"
 msgstr "Calcolo in corso... %d%%"
 
-#: src/min256-finder.py:98
+#: src/min256-finder.py:109
 #, python-format
 msgid "Error: %s"
 msgstr "Errore: %s"
 
-#: src/min256-finder.py:102 src/min256-finder.py:136
+#: src/min256-finder.py:114 src/min256-finder.py:150
 msgid "Select an ISO file"
 msgstr "Seleziona un file ISO"
 
-#: src/min256-finder.py:103
+#: src/min256-finder.py:115
 msgid "All files"
 msgstr "Tutti i file"
 
-#: src/min256-finder.py:108
+#: src/min256-finder.py:120
 #, python-format
 msgid "Calculating... 0%%"
 msgstr "Calcolo in corso... 0%%"
 
-#: src/min256-finder.py:114
+#: src/min256-finder.py:126
 msgid "No file selected."
 msgstr "Nessun file selezionato."
 
-#: src/min256-finder.py:122
+#: src/min256-finder.py:135
 #, python-format
 msgid ""
 "SHA256:\n"
@@ -55,14 +55,14 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/min256-finder.py:124
+#: src/min256-finder.py:137
 msgid "Info"
 msgstr "Info"
 
-#: src/min256-finder.py:124
+#: src/min256-finder.py:137
 msgid "Done."
 msgstr "Fatto."
 
-#: src/min256-finder.py:140
+#: src/min256-finder.py:154
 msgid "Select"
 msgstr "Seleziona"
