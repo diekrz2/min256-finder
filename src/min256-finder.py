@@ -6,11 +6,12 @@ import hashlib
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import gettext
-import locale
 
 APP_NAME = "min256-finder"
 
+
 def get_resource_path(relative_path=""):
+
     if getattr(sys, 'frozen', False):
         base_path = sys._MEIPASS
     else:
@@ -20,7 +21,9 @@ def get_resource_path(relative_path=""):
 
 # localization with gettext:
 
+
 def get_locale_path():
+
     # PyInstaller (Windows exe)
     if getattr(sys, 'frozen', False):
         return os.path.join(sys._MEIPASS, 'locales')
@@ -31,6 +34,7 @@ def get_locale_path():
 
     # Linux (.deb)
     return "/usr/share/locale"
+
 
 def get_lang_code():
     for env_var in ('LANGUAGE', 'LC_ALL', 'LC_MESSAGES', 'LANG'):
@@ -46,11 +50,12 @@ def get_lang_code():
             code = win_lang.split('_')[0].lower()
             if code and code != 'c':
                 return code
-    except:
+    except Exception:
         pass
 
     # fallback to English
     return 'en'
+
 
 lang_code = get_lang_code()
 
@@ -63,8 +68,11 @@ try:
     )
     _ = translation.gettext
 
-except Exception as e:
-    _ = lambda x: x
+except Exception:
+
+    def _(text):
+        return text
+
 
 def find_sha(file_path):
     sha256 = hashlib.sha256()
@@ -86,7 +94,9 @@ def find_sha(file_path):
                 percent = int((read_size / total_size) * 100)
 
                 if percent != last_percent:
-                   result_label.config(text=_("Calculating... %d%%") % percent)
+                    result_label.config(
+                        text=_("Calculating... %d%%") % percent
+                    )
 
                 # GUI update
                 root.update_idletasks()
@@ -95,7 +105,9 @@ def find_sha(file_path):
         return sha256.hexdigest()
 
     except Exception as e:
+
         return _("Error: %s") % str(e)
+
 
 def select_file():
     file_path = filedialog.askopenfilename(
@@ -113,6 +125,7 @@ def select_file():
     else:
         result_label.config(text=_("No file selected."))
 
+
 def start_calculation(file_path):
     hash_value = find_sha(file_path)
 
@@ -122,6 +135,7 @@ def start_calculation(file_path):
     result_label.config(text=_("SHA256:\n\n%s") % hash_value)
     # Final popup
     messagebox.showinfo(_("Info"), _("Done."))
+
 
 # Main window
 root = tk.Tk(className="min256-finder")
