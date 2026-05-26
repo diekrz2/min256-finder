@@ -1,5 +1,5 @@
 src/min256-finder.py usr/share/min256-finder/
 bin/min256-finder usr/bin/
 data/min256-finder.desktop usr/share/applications/
-data/icons/min256-finder.png usr/share/icons/hicolor/256x256/apps
+data/icons/min256-finder.png usr/share/icons/hicolor/128x128/apps
 debian/min256-finder.1 usr/share/man/man1/
