@@ -100,11 +100,7 @@ def find_sha(file_path, cancel_event, progress_queue):
 
                 sha256.update(data)
                 read_size += len(data)
-
-                if total_size > 0:
-                    percent = int((read_size / total_size) * 100)
-                else:
-                    100
+                percent = int((read_size / total_size) * 100)
 
                 if percent != last_percent:
                     progress_queue.put(("progress", percent))
