@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR diekrz2
+# This file is distributed under the same license as the min256-finder package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-04 21:07+0200\n"
+"Project-Id-Version: min256-finder 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/diekrz2/min256-finder/issues\n"
+"POT-Creation-Date: 2026-08-06 01:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,34 +17,33 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/min256-finder.py:98
-#, python-format
-msgid "Calculating... %d%%"
-msgstr ""
-
-#: src/min256-finder.py:109
+#: src/min256-finder.py:87 src/min256-finder.py:114
 #, python-format
 msgid "Error: %s"
 msgstr ""
 
-#: src/min256-finder.py:114 src/min256-finder.py:150
+#: src/min256-finder.py:122 src/min256-finder.py:165 src/min256-finder.py:231
 msgid "Select an ISO file"
 msgstr ""
 
-#: src/min256-finder.py:115
+#: src/min256-finder.py:123
 msgid "All files"
 msgstr ""
 
-#: src/min256-finder.py:120
-#, python-format
-msgid "Calculating... 0%%"
-msgstr ""
-
-#: src/min256-finder.py:126
+#: src/min256-finder.py:129
 msgid "No file selected."
 msgstr ""
 
-#: src/min256-finder.py:135
+#: src/min256-finder.py:139
+msgid "Calculating... 0%"
+msgstr ""
+
+#: src/min256-finder.py:179
+#, python-format
+msgid "Calculating... %d%%"
+msgstr ""
+
+#: src/min256-finder.py:184
 #, python-format
 msgid ""
 "SHA256:\n"
@@ -52,14 +51,30 @@ msgid ""
 "%s"
 msgstr ""
 
-#: src/min256-finder.py:137
+#: src/min256-finder.py:188
 msgid "Info"
 msgstr ""
 
-#: src/min256-finder.py:137
+#: src/min256-finder.py:188
 msgid "Done."
 msgstr ""
 
-#: src/min256-finder.py:154
+#: src/min256-finder.py:203
+msgid "Cancelled."
+msgstr ""
+
+#: src/min256-finder.py:238
 msgid "Select"
+msgstr ""
+
+#: src/min256-finder.py:242
+msgid "Cancel"
+msgstr ""
+
+#: src/min256-finder.py:246 src/min256-finder.py:254
+msgid "Exit"
+msgstr ""
+
+#: src/min256-finder.py:251
+msgid "New"
 msgstr ""
