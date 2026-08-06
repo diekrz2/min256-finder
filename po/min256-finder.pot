@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: min256-finder 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/diekrz2/min256-finder/issues\n"
-"POT-Creation-Date: 2026-08-06 01:43+0200\n"
+"POT-Creation-Date: 2026-08-06 21:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,33 +17,33 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/min256-finder.py:87 src/min256-finder.py:114
+#: src/min256-finder.py:87 src/min256-finder.py:110
 #, python-format
 msgid "Error: %s"
 msgstr ""
 
-#: src/min256-finder.py:122 src/min256-finder.py:165 src/min256-finder.py:231
+#: src/min256-finder.py:118 src/min256-finder.py:161 src/min256-finder.py:227
 msgid "Select an ISO file"
 msgstr ""
 
-#: src/min256-finder.py:123
+#: src/min256-finder.py:119
 msgid "All files"
 msgstr ""
 
-#: src/min256-finder.py:129
+#: src/min256-finder.py:125
 msgid "No file selected."
 msgstr ""
 
-#: src/min256-finder.py:139
+#: src/min256-finder.py:135
 msgid "Calculating... 0%"
 msgstr ""
 
-#: src/min256-finder.py:179
+#: src/min256-finder.py:175
 #, python-format
 msgid "Calculating... %d%%"
 msgstr ""
 
-#: src/min256-finder.py:184
+#: src/min256-finder.py:180
 #, python-format
 msgid ""
 "SHA256:\n"
@@ -51,30 +51,30 @@ msgid ""
 "%s"
 msgstr ""
 
-#: src/min256-finder.py:188
+#: src/min256-finder.py:184
 msgid "Info"
 msgstr ""
 
-#: src/min256-finder.py:188
+#: src/min256-finder.py:184
 msgid "Done."
 msgstr ""
 
-#: src/min256-finder.py:203
+#: src/min256-finder.py:199
 msgid "Cancelled."
 msgstr ""
 
-#: src/min256-finder.py:238
+#: src/min256-finder.py:234
 msgid "Select"
 msgstr ""
 
-#: src/min256-finder.py:242
+#: src/min256-finder.py:238
 msgid "Cancel"
 msgstr ""
 
-#: src/min256-finder.py:246 src/min256-finder.py:254
+#: src/min256-finder.py:242 src/min256-finder.py:250
 msgid "Exit"
 msgstr ""
 
-#: src/min256-finder.py:251
+#: src/min256-finder.py:247
 msgid "New"
 msgstr ""

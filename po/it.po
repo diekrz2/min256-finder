@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/diekrz2/min256-finder/issues\n"
-"POT-Creation-Date: 2026-08-06 01:43+0200\n"
+"POT-Creation-Date: 2026-08-06 21:45+0200\n"
 "PO-Revision-Date: 2026-04-10 17:45+0200\n"
 "Last-Translator: diekrz2\n"
 "Language-Team: \n"
@@ -17,33 +17,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/min256-finder.py:87 src/min256-finder.py:114
+#: src/min256-finder.py:87 src/min256-finder.py:110
 #, python-format
 msgid "Error: %s"
 msgstr "Errore: %s"
 
-#: src/min256-finder.py:122 src/min256-finder.py:165 src/min256-finder.py:231
+#: src/min256-finder.py:118 src/min256-finder.py:161 src/min256-finder.py:227
 msgid "Select an ISO file"
 msgstr "Seleziona un file ISO"
 
-#: src/min256-finder.py:123
+#: src/min256-finder.py:119
 msgid "All files"
 msgstr "Tutti i file"
 
-#: src/min256-finder.py:129
+#: src/min256-finder.py:125
 msgid "No file selected."
 msgstr "Nessun file selezionato."
 
-#: src/min256-finder.py:139
+#: src/min256-finder.py:135
 msgid "Calculating... 0%"
 msgstr "Calcolo in corso... 0%"
 
-#: src/min256-finder.py:179
+#: src/min256-finder.py:175
 #, python-format
 msgid "Calculating... %d%%"
 msgstr "Calcolo in corso... %d%%"
 
-#: src/min256-finder.py:184
+#: src/min256-finder.py:180
 #, python-format
 msgid ""
 "SHA256:\n"
@@ -54,30 +54,30 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/min256-finder.py:188
+#: src/min256-finder.py:184
 msgid "Info"
 msgstr "Info"
 
-#: src/min256-finder.py:188
+#: src/min256-finder.py:184
 msgid "Done."
 msgstr "Fatto."
 
-#: src/min256-finder.py:203
+#: src/min256-finder.py:199
 msgid "Cancelled."
 msgstr "Operazione interrotta."
 
-#: src/min256-finder.py:238
+#: src/min256-finder.py:234
 msgid "Select"
 msgstr "Seleziona"
 
-#: src/min256-finder.py:242
+#: src/min256-finder.py:238
 msgid "Cancel"
 msgstr "Interrompi"
 
-#: src/min256-finder.py:246 src/min256-finder.py:254
+#: src/min256-finder.py:242 src/min256-finder.py:250
 msgid "Exit"
 msgstr "Esci"
 
-#: src/min256-finder.py:251
+#: src/min256-finder.py:247
 msgid "New"
 msgstr "Nuovo"

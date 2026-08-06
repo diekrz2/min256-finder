@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/diekrz2/min256-finder/issues\n"
-"POT-Creation-Date: 2026-08-06 01:43+0200\n"
+"POT-Creation-Date: 2026-08-06 21:45+0200\n"
 "PO-Revision-Date: 2026-04-11 09:52+0200\n"
 "Last-Translator: diekrz2\n"
 "Language-Team: \n"
@@ -18,33 +18,33 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
 "|| n%100>14) ? 1 : 2);\n"
 
-#: src/min256-finder.py:87 src/min256-finder.py:114
+#: src/min256-finder.py:87 src/min256-finder.py:110
 #, python-format
 msgid "Error: %s"
 msgstr "Błąd: %s"
 
-#: src/min256-finder.py:122 src/min256-finder.py:165 src/min256-finder.py:231
+#: src/min256-finder.py:118 src/min256-finder.py:161 src/min256-finder.py:227
 msgid "Select an ISO file"
 msgstr "Wybierz plik ISO"
 
-#: src/min256-finder.py:123
+#: src/min256-finder.py:119
 msgid "All files"
 msgstr "Wszystkie pliki"
 
-#: src/min256-finder.py:129
+#: src/min256-finder.py:125
 msgid "No file selected."
 msgstr "Nie wybrano pliku."
 
-#: src/min256-finder.py:139
+#: src/min256-finder.py:135
 msgid "Calculating... 0%"
 msgstr "Obliczanie... 0%"
 
-#: src/min256-finder.py:179
+#: src/min256-finder.py:175
 #, python-format
 msgid "Calculating... %d%%"
 msgstr "Obliczanie... %d%%"
 
-#: src/min256-finder.py:184
+#: src/min256-finder.py:180
 #, python-format
 msgid ""
 "SHA256:\n"
@@ -55,30 +55,30 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/min256-finder.py:188
+#: src/min256-finder.py:184
 msgid "Info"
 msgstr "Info"
 
-#: src/min256-finder.py:188
+#: src/min256-finder.py:184
 msgid "Done."
 msgstr "Zrobione."
 
-#: src/min256-finder.py:203
+#: src/min256-finder.py:199
 msgid "Cancelled."
 msgstr "Przerwano."
 
-#: src/min256-finder.py:238
+#: src/min256-finder.py:234
 msgid "Select"
 msgstr "Wybierz"
 
-#: src/min256-finder.py:242
+#: src/min256-finder.py:238
 msgid "Cancel"
 msgstr "Przerwij"
 
-#: src/min256-finder.py:246 src/min256-finder.py:254
+#: src/min256-finder.py:242 src/min256-finder.py:250
 msgid "Exit"
 msgstr "Wyjdź"
 
-#: src/min256-finder.py:251
+#: src/min256-finder.py:247
 msgid "New"
 msgstr "Nowy"
