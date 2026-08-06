@@ -1,3 +1,13 @@
+min256-finder (1.2-1) unstable; urgency=medium
+
+  * Add cancelable threaded SHA256 calculation to keep GUI responsive
+  * Add New/Exit workflow buttons after calculation completes
+  * Fix zero-byte file division error and missing-file edge cases
+  * Increase read buffer size for better performance on large ISOs
+  * Update Italian and Polish translations for new UI strings
+
+ -- diekrz2 <diekrz2@bodhilinux.com>  Thu, 06 Aug 2026 15:00:00 +0200
+
 min256-finder (1.1-1) unstable; urgency=medium
 
   * Add icon
