@@ -5,8 +5,9 @@ min256-finder (1.2-1) unstable; urgency=medium
   * Fix zero-byte file division error and missing-file edge cases
   * Increase read buffer size for better performance on large ISOs
   * Update Italian and Polish translations for new UI strings
+  * Remove unreachable dead-code branch in percentage calculation
 
- -- diekrz2 <diekrz2@bodhilinux.com>  Thu, 06 Aug 2026 15:00:00 +0200
+ -- diekrz2 <diekrz2@bodhilinux.com>  Thu, 06 Aug 2026 21:50:00 +0200
 
 min256-finder (1.1-1) unstable; urgency=medium
 
