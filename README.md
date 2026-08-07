@@ -8,7 +8,7 @@ Supported languages: English, Italian and Polish.
 - `python3`
 - `python3-tk`
 
-<img width="444" height="176" alt="shot_18-12" src="https://github.com/user-attachments/assets/05beca5a-24c4-4990-a09a-b43fa177a44f" />
+<img width="428" height="155" alt="Screenshot-223740" src="https://github.com/user-attachments/assets/2b94b8d8-69b3-4ad4-acfc-392f7d6364c1" />
 
 **Install:**
 -------------
