@@ -14,7 +14,7 @@ Supported languages: English, Italian and Polish.
 -------------
 <ins>***Windows:***</ins>
 
-It does not require installation. Simply download the .exe file and run it by double-clicking. Tested on Windows 10 and Windows 11.
+It does not require installation. Simply download the .exe file and run it by double-clicking. It works for both 64 bit and 32 bit. Tested on Windows 10 and Windows 11.
 
 <ins>***Linux:***</ins>
 
