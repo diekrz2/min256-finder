@@ -26,4 +26,4 @@ It does not require installation. Simply download the .exe file and run it by do
 
 >[!NOTE]
 >There is a <ins>**locales**</ins> folder containing the translations in the form of .mo files, organized in the standard path ***<lang_code>/LC_MESSAGES***. 
->This setup allows the .deb package to copy the translation files on Linux systems to ***/usr/share/locale/<lang_code>/LC_MESSAGES***, and at the same time serves as the source of >the translations inside the .exe file for Windows.
+>This setup allows the .deb package to copy the translation files on Linux systems to ***/usr/share/locale/<lang_code>/LC_MESSAGES***, and at the same time serves as the source of the translations inside the .exe file for Windows.
