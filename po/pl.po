@@ -1,5 +1,5 @@
 # Polish translation for min256-finder.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2026 diekrz2
 # This file is distributed under the same license as the min256-finder package.
 # diekrz2 <diekrz2@bodhilinux.com>, 2026.
 #
