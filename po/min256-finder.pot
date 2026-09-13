@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: min256-finder 1.0\n"
+"Project-Id-Version: min256-finder 1.2\n"
 "Report-Msgid-Bugs-To: https://github.com/diekrz2/min256-finder/issues\n"
 "POT-Creation-Date: 2026-08-06 21:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
