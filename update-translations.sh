@@ -18,7 +18,7 @@ echo
 
 # .pot
 xgettext --language=Python --keyword=_ --from-code=UTF-8 \
-         --package-name="${PROJECT_NAME}" --package-version="1.0" \
+         --package-name="${PROJECT_NAME}" --package-version="1.2" \
          --copyright-holder="diekrz2" \
          --msgid-bugs-address="${BUGS_ADDRESS}" \
          --output="${POT_FILE}" ${SRC_DIR}/*.py
